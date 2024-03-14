@@ -127,12 +127,12 @@ const Footer = () => {
             <form className="pt-4 flex">
               <input
                 type="email"
-                className="outline-none  w-[170px] sm:w-[350px] md:w-[400px]  lg:w-[542px] py-4 pl-[16px] sm:pl-[32px] placeholder:pr-40 bg-zinc-600 placeholder-slate-300 text-slate-100"
+                className="outline-none  w-[170px] sm:w-[350px] md:w-[400px]  lg:w-[542px] py-4 pl-[16px] sm:pl-[32px] placeholder:pr-40 bg-zinc-600 placeholder-slate-300 text-slate-100  hover:rounded-tl-lg hover:rounded-bl-lg hover:ease-in  "
                 placeholder="your@email.com"
               />
               <button
                 type="submit"
-                className="w-[100px] sm:w-[118px] bg-white text-slate-900 font-medium"
+                className="w-[100px] sm:w-[118px] bg-white text-slate-900 font-medium hover:ease-in-out duration-300 hover:rpunded-lg"
               >
                 Sign up
               </button>

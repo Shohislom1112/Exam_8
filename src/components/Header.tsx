@@ -32,14 +32,10 @@ const Header = () => {
 
   return (
     <div
-      className={`bg-white  -top-1 left-0 right-0 z-20 fixed   shadow-lg`}
+      className={`bg-white h-[90px]  -top-1 left-0 right-0 z-20 fixed   shadow-lg`}
     >
       <div
-        className={`container mx-auto ${
-          isShrunk
-            ? "h-[85px] flex flex-col py-[6px] gap-y-1 duration-300"
-            : "h-[132px] flex flex-col py-4 gap-y-4 duration-300  "
-        }  px-5`}
+        className={`container mx-auto   px-5`}
       >
         <div className="flex justify-between items-center">
           <IoIosSearch className="w-[24px] h-[24px] cursor-pointer hidden sm:block  text-[#22202E] hover:text-slate-950" />
