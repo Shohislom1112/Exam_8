@@ -20,12 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.className} light:bg-slate-100 dark:bg-[#1f2c47] transition`}
+        className={`${inter.className} light:bg-slate-100  transition`}
       >
         <Providers>
           <div
             style={{ transition: "0.5s" }}
-            className="light:bg-slate-100 dark:bg-[#1f2c47] transition"
+            className="light:bg-slate-100  transition"
           >
             <Header />
             <main className="mt-32">{children}</main>
