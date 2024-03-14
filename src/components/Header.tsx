@@ -32,9 +32,7 @@ const Header = () => {
 
   return (
     <div
-      className={`bg-white  -top-1 left-0 right-0 z-20 fixed ${
-        isShrunk ? "shadow-lg" : ""
-      }`}
+      className={`bg-white  -top-1 left-0 right-0 z-20 fixed   shadow-lg`}
     >
       <div
         className={`container mx-auto ${
