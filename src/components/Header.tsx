@@ -55,7 +55,7 @@ const Header = () => {
                 className={`bg-steel-500 block transition-all duration-300 ease-out
             h-1 w-8 rounded-md bg-black 
             ${
-              open
+              open  
                 ? "rotate-45 translate-y-[0.41rem]"
                 : "-translate-y-[0.30rem]"
             }`}
@@ -69,7 +69,7 @@ const Header = () => {
               ></span>
               <span
                 className={`bg-steel-500 block transition-all duration-300 ease-out
-            h-1 w-8 rounded-md bg-black 
+            h-1 w-8 rounded-md bg-black  
              ${
               open
                 ? "-rotate-45 -translate-y-[0.35rem]"
@@ -83,43 +83,43 @@ const Header = () => {
         <div className=" justify-center gap-6 hidden md:flex">
           <Link
             href={"#"}
-            className="text-[#505977]  hover:text-[#110f16] cursor-pointer hover:font-normal"
+            className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
           >
             Plant pots
           </Link>
           <Link
             href={"#"}
-            className="text-[#505977]  hover:text-[#110f16]  cursor-pointer hover:font-normal"
+            className="text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
           >
             Ceramics
           </Link>
           <Link
             href={"#"}
-            className="text-[#505977]  hover:text-[#110f16]  cursor-pointer hover:font-normal"
+            className="text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
           >
             Tables
           </Link>
           <Link
             href={"#"}
-            className="text-[#505977]  hover:text-[#110f16]  cursor-pointer hover:font-normal"
+            className="text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
           >
             Chairs
           </Link>
           <Link
             href={"#"}
-            className="text-[#505977]  hover:text-[#110f16]  cursor-pointer hover:font-normal"
+            className="text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
           >
             Crockery
           </Link>
           <Link
             href={"#"}
-            className="text-[#505977]  hover:text-[#110f16]  cursor-pointer hover:font-normal"
+            className="text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
           >
             Tableware
           </Link>
           <Link
             href={"#"}
-            className="text-[#505977]  hover:text-[#110f16]  cursor-pointer hover:font-normal"
+            className="text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
           >
             Cutlery
           </Link>

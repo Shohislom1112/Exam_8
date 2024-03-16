@@ -1,0 +1,530 @@
+header {
+  align-items: center;
+  justify-content: center;
+  .head {
+    .divs {
+      display: flex;
+      justify-content: center;
+      width: 1280px;
+      height: 584px;
+      top: 60px;
+      left: 80px;
+
+      .div1 {
+        display: flex;
+        flex-direction: column;
+        background: #2a254b;
+        width: 760px;
+        height: 584px;
+        padding: 0;
+        margin: 0;
+
+        .div_1 {
+          display: flex;
+          flex-direction: column;
+          margin-left: 50px;
+          margin-top: 50px;
+          .p1 {
+            //styleName: Headings / H2;
+            font-family: Clash Display;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 45px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 513px;
+            height: 90px;
+            color: white;
+          }
+          .p2 {
+            margin-top: 50px;
+            gap: 10px;
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+            width: 106px;
+            height: 24px;
+            background: #f9f9f926;
+            padding: 26px, 52px;
+          }
+        }
+        .div_2 {
+          margin-top: 220px;
+          margin-left: 50px;
+          .p3 {
+            //styleName: Body / Large;
+            font-family: Satoshi;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 602px;
+            height: 81px;
+            top: 443px;
+            left: 60px;
+            color: white;
+          }
+        }
+      }
+      .div2 {
+        padding: 0;
+        width: 520px;
+        height: 584px;
+        background-image: url(../assets/images/stul.png);
+      }
+    }
+    .card {
+      margin-top: 50px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      .p_1 {
+        /* Headings / H3 */
+        color: rgb(42, 37, 75);
+        font-family: Clash Display;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        // gap: 50px;
+        justify-content: space-between;
+        .card1 {
+          /* Feature block */
+          //   position: absolute;
+          width: 266px;
+          height: 124px;
+          left: 415px;
+          right: 759px;
+          top: 145px;
+          bottom: 86px;
+          /* Auto layout */
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          column-gap: 10px;
+
+          .img {
+            /* Checkmark--outline */
+            position: static;
+            width: 24px;
+            height: 24px;
+            /* Inside Auto Layout */
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 16px 0px;
+          }
+          .t1 {
+            /* Headings / H4 */
+            color: rgb(42, 37, 75);
+            font-family: Clash Display;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+          .t2 {
+            /* Handmade crafted goods made with real passion and craftmanship */
+            /* Body/Medium */
+            color: rgb(42, 37, 75);
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+main {
+  margin-top: 50px;
+  .main {
+    .card {
+      .card_1 {
+        .cards {
+          .p_1 {
+            color: rgb(42, 37, 75);
+            font-family: Clash Display;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 39px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+          .card {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            .card1 {
+              /* Product Card */
+              //   position: absolute;
+              width: 305px;
+              height: 462px;
+              left: 80px;
+              right: 1055px;
+              top: 152px;
+              bottom: 147px;
+              /* Auto layout */
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+              padding: 0px;
+              column-gap: 15px;
+
+              .image {
+                /* Photo */
+                // position: absolute;
+                width: 305px;
+                height: 375px;
+                left: 0%;
+                right: 0%;
+                top: 0%;
+                bottom: 0%;
+              }
+              .p11 {
+                /* Headings / H4 */
+                color: rgb(42, 37, 75);
+                font-family: Clash Display;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 140%;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+              .p22 {
+                /* Body / Large */
+                color: rgb(42, 37, 75);
+                font-family: Satoshi;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+            }
+            .card1 {
+              /* Product Card */
+              //   position: absolute;
+              width: 305px;
+              height: 462px;
+              left: 80px;
+              right: 1055px;
+              top: 152px;
+              bottom: 147px;
+              /* Auto layout */
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+              padding: 0px;
+              column-gap: 15px;
+
+              .image {
+                /* Photo */
+                // position: absolute;
+                width: 305px;
+                height: 375px;
+                left: 0%;
+                right: 0%;
+                top: 0%;
+                bottom: 0%;
+              }
+              .p11 {
+                /* Headings / H4 */
+                color: rgb(42, 37, 75);
+                font-family: Clash Display;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 140%;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+              .p22 {
+                /* Body / Large */
+                color: rgb(42, 37, 75);
+                font-family: Satoshi;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+      .card_2 {
+        .cards {
+          margin-top: 50px;
+          .p_1 {
+            color: rgb(42, 37, 75);
+            font-family: Clash Display;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 39px;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+          .card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            .card1 {
+              margin-top: 50px;
+              /* Product Card */
+              //   position: absolute;
+              width: 305px;
+              height: 462px;
+              left: 80px;
+              right: 1055px;
+              top: 152px;
+              bottom: 147px;
+              /* Auto layout */
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+              padding: 0px;
+              column-gap: 15px;
+
+              .image {
+                /* Photo */
+                // position: absolute;
+                width: 305px;
+                height: 375px;
+                left: 0%;
+                right: 0%;
+                top: 0%;
+                bottom: 0%;
+              }
+              .p11 {
+                /* Headings / H4 */
+                color: rgb(42, 37, 75);
+                font-family: Clash Display;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 140%;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+              .p22 {
+                /* Body / Large */
+                color: rgb(42, 37, 75);
+                font-family: Satoshi;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+            }
+            .card0 {
+              /* Product Card */
+              //   position: absolute;
+              width: 630px;
+              height: 462px;
+              left: 80px;
+              right: 730px;
+              top: 134px;
+              bottom: 148px;
+              /* Auto layout */
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+              padding: 0px;
+              .image {
+                /* Photo */
+                // position: absolute;
+                /* Product Card/Large */
+                position: static;
+                width: 630px;
+                height: 375px;
+                /* Inside Auto Layout */
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 24px 0px;
+              }
+              .p11 {
+                /* Headings / H4 */
+                color: rgb(42, 37, 75);
+                font-family: Clash Display;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 140%;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+              .p22 {
+                /* Body / Large */
+                color: rgb(42, 37, 75);
+                font-family: Satoshi;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0%;
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  margin-top: 100px;
+  .foot {
+    .foot1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .p1 {
+        /* Headings / H1 */
+        color: rgb(42, 37, 75);
+        font-family: Clash Display;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+      .p2 {
+        /* Body/Medium */
+        width: 470px;
+        height: 48px;
+
+        color: rgb(42, 37, 75);
+        font-family: Satoshi;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+      .input {
+        .input1 {
+          padding-left: 10px;
+          outline: none;
+          border: none;
+          /* Frame 45 */
+          position: static;
+          width: 354px;
+          height: 56px;
+          /* Inside Auto Layout */
+          flex: none;
+          order: 0;
+          align-self: stretch;
+          flex-grow: 1;
+          margin: 0px 0px;
+          /* Light Grey */
+          background: rgb(249, 249, 249);
+        }
+        .but {
+          background-color: #2a254b;
+          /* Body/Medium */
+          color: rgb(255, 255, 255);
+          font-family: Satoshi;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0%;
+          text-align: left;
+          padding: 16px 32px 16px 32px;
+        }
+      }
+    }
+    .foot2 {
+      margin-top: 105px;
+      .cards {
+        width: 1300px;
+        height: 603px;
+        display: flex;
+        padding: 0;
+
+        .card1 {
+            margin-top: 80px;
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          .p1 {
+            color: rgb(42, 37, 75);
+            font-family: Clash Display;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: left;
+            width: 514px;
+            height: 68px;
+          }
+          .p2 {
+            color: rgb(80, 89, 119);
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: left;
+            width: 536px;
+            height: 50px;
+          }
+          .p3 {
+            color: rgb(80, 89, 119);
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0%;
+            text-align: left;
+            width: 536px;
+            height: 50px;
+          }
+          .p4 {
+            /* Body/Medium */
+            color: rgb(42, 37, 75);
+            font-family: Satoshi;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 0%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-end;
+            // padding: 16px 32px 16px 32px;
+            /* Light Grey */
+            background: rgb(249, 249, 249);
+            padding: 16px 32px;
+          }
+        }
+        .card2 {
+          width: 720px;
+          height: 603px;
+          left: 720px;
+          background-image: url(../assets/images/bac2.png);
+        }
+      }
+    }
+  }
+}

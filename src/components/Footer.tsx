@@ -8,7 +8,7 @@ import { BsPinterest } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-[#1a253c]">
+    <div className="bg-[#1a253c] mt-[50px]" >
       <div className="container mx-auto sm:px-[82px] px-[20px]">
         <div className="flex flex-wrap gap-y-10 gap-6 justify-between py-12">
           <div className="flex flex-col gap-3">
