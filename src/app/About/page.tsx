@@ -1,5 +1,5 @@
 import React from "react";
-import "@/app/about/page.scss";
+import "./page.scss";
 import { card, check, feature, truck } from "@/assets";
 import Image from "next/image";
 

@@ -1,4 +1,4 @@
-import "@/app/main.scss";
+import "./main.scss";
 import {
   truck,
   card,

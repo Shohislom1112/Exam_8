@@ -1,12 +1,10 @@
-'use client'
-import  { useEffect } from "react";
-import "@/app/produckts/page.scss";
+"use client";
+import { useEffect } from "react";
+import "./page.scss";
 import getProducts from "@/store/produckt.store";
 
 const Produckts = () => {
   const { loading, error, getproducts, products } = getProducts();
-
-
 
   useEffect(() => {
     getproducts();
