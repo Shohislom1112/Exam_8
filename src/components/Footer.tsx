@@ -145,7 +145,7 @@ const Footer = () => {
           <div className="flex gap-3 items-center">
             <p className="flex hover:bg-white rounded-lg  justify-center w-[18px] h-[20px] items-center">
               <Link
-                href={"https://t.me/Temur_vibes"}
+                href={"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png"}
                 className="text-[24px] hover:scale-[1.2] text-white hover:text-[#008cff] duration-200"
               >
                 <FaTelegram />
@@ -159,7 +159,7 @@ const Footer = () => {
             </Link>
             <p className="flex hover:bg-white rounded-[4px] justify-center w-[18px] h-[20px] items-center">
               <Link
-                href={"https://www.linkedin.com/in/temur-shernazarov-20415729b"}
+                href={"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png"}
                 className="text-[27px] hover:scale-[1.2] text-white hover:text-[#007bff] duration-200"
               >
                 <IoLogoLinkedin />
@@ -167,7 +167,7 @@ const Footer = () => {
             </p>
             <Link
               href={"https://twitter.com/?lang=en"}
-              className="w-6 h-6 hover:scale-[1.2] text-white duration-200 text-[24px]  "
+              className="w-6 h-6 hover:scale-[1.2] text-white hover:text-[#007bff] duration-200 text-[24px]  "
             >
               <IoLogoTwitter />
             </Link>

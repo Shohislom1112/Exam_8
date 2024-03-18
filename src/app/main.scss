@@ -451,6 +451,15 @@ footer {
           letter-spacing: 0%;
           text-align: left;
           padding: 16px 32px 16px 32px;
+          transition: 1.2s;
+          border: 1px solid #fff;
+          &:hover {
+              background-color: #fff;
+              border: 3px solid #2a254b;
+              color: #2a254b;
+              border-radius: 8px;
+              font-weight: 700;
+          }
         }
       }
     }
@@ -460,6 +469,7 @@ footer {
         width: 1300px;
         height: 603px;
         display: flex;
+        justify-content: space-around;
         padding: 0;
 
         .card1 {

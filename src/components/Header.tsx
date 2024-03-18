@@ -42,6 +42,7 @@ const Header = () => {
           <p className="text-3xl font-normal text-[#101727] ">
             Avion
           </p>
+          
           <div className="flex gap-4 jus items-center">
             <IoIosSearch className="block md:hidden  w-[28px] h-[28px] cursor-pointer  text-[#22202E] hover:text-slate-950" />
             <AiOutlineShoppingCart className="md:block hidden  w-[24px] h-[24px] cursor-pointer  text-[#22202E] hover:text-slate-950" />
@@ -81,6 +82,24 @@ const Header = () => {
         </div>
         <hr className=" md:block hidden pr-6 h-2" />
         <div className=" justify-center gap-6 hidden md:flex">
+          <Link
+            href={"/about"}
+            className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+          >
+            About Us
+          </Link>
+          <Link
+            href={"/produckts"}
+            className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+          >
+            Produckts
+          </Link>
+          <Link
+            href={"/contact"}
+            className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+          >
+            Produckts Details
+          </Link>
           <Link
             href={"#"}
             className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
