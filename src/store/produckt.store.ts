@@ -24,7 +24,7 @@ export const getProducts = create<produckttype>((set) => ({
 //   post: async (product: any) => {
 //     try {
 //         console.log(product);
-//         const res = await axios.post(`https://65bb755f52189914b5bc33c8.mockapi.io/Images, product`);
+        // const res = await axios.post(`https://65bb755f52189914b5bc33c8.mockapi.io/Images, product`);
 //     } catch (error) {
 //         console.error(error);
 //     }

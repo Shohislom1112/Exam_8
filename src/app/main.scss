@@ -454,11 +454,11 @@ footer {
           transition: 1.2s;
           border: 1px solid #fff;
           &:hover {
-              background-color: #fff;
-              border: 3px solid #2a254b;
-              color: #2a254b;
-              border-radius: 8px;
-              font-weight: 700;
+            background-color: #fff;
+            border: 3px solid #2a254b;
+            color: #2a254b;
+            border-radius: 8px;
+            font-weight: 700;
           }
         }
       }
@@ -473,7 +473,7 @@ footer {
         padding: 0;
 
         .card1 {
-            margin-top: 80px;
+          margin-top: 80px;
           display: flex;
           flex-direction: column;
           gap: 25px;
@@ -537,4 +537,24 @@ footer {
       }
     }
   }
+}
+
+.pp {
+  /* Light Grey */
+  background: rgb(249, 249, 249);
+  /* Body/Medium */
+  color: rgb(42, 37, 75);
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: Hug (170px) px;
+  height: Hug (56px) px;
+  top: 649px;
+  left: 635px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  opacity: 0px;
 }

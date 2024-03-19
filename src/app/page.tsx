@@ -1,4 +1,4 @@
-import "./main.scss";
+import "@/app/main.scss";
 import {
   truck,
   card,
@@ -12,6 +12,7 @@ import {
   imag1,
 } from "@/assets";
 import Image from "next/image";
+import Link from "next/link";
 
 import React from "react";
 
@@ -109,6 +110,7 @@ const Home = () => {
                     <p className="p22">£399</p>
                   </div>
                 </div>
+                <a href={"/produckts"}  className="flex justify-center items-center pp">View collection</a>
               </div>
             </div>
             <div className="card_2">
@@ -131,6 +133,7 @@ const Home = () => {
                     <p className="p22">£250</p>
                   </div>
                 </div>
+                <a href={"/produckts"} className="flex justify-center items-center pp">View collection</a>
               </div>
             </div>
           </div>

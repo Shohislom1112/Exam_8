@@ -1,10 +1,11 @@
 "use client";
-import { useEffect } from "react";
-import "./page.scss";
+import { useEffect, useState } from "react";
+import "@/app/produckts/page.scss";
 import getProducts from "@/store/produckt.store";
 
 const Produckts = () => {
   const { loading, error, getproducts, products } = getProducts();
+  const [search, setSearch]= useState<string>('')
 
   useEffect(() => {
     getproducts();
@@ -17,6 +18,7 @@ const Produckts = () => {
       </header>
 
       <div className="container mx-auto h-min-screen bg-white mt-20 div">
+          <input type="text" placeholder="search" className="inputt" value={search} onChange={((e) => setSearch(e.target.value))}/>
         <main>
           <div className="div1">
             <p className="p1">Product type</p>
@@ -63,7 +65,16 @@ const Produckts = () => {
             </div>
           </div>
           <div className="div2">
-            {products.map((product) => (
+            {products.filter((product) => {
+                if (search  === "") {
+                  return product;
+                } else if (
+                  product.name.toLowerCase().includes(search.toLowerCase()) 
+                
+                ) {
+                  return product;
+                }
+              }).map((product) => (
               <div key={product.id} className="product">
                 <img className="img" src={product.image} alt={product.name} />
                 <p className="p1">{product.name}</p>
